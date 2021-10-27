@@ -6,7 +6,7 @@ n3 = int(input("Ingrese el tercer dato númerico :"))
 list = [n1, n2, n3]
 
 mean = statistics.mean(list)
-print("el valor medio es :" + str(mean))
+print("El valor medio es :" + str(mean))
 
 median = statistics.median(list)
 print("El valor de la mediana es :" + str(median))
